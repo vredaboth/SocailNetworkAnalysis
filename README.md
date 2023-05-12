@@ -93,31 +93,5 @@ const onClickLink = function(source, target) {
 />;
 ```
 
-For more advanced use cases check [the official documentation](https://danielcaldas.github.io/react-d3-graph/docs/index.html).
 
-## Core Team
 
-The group of maintainers driving the project.
-
-| [Daniel Caldas](https://github.com/danielcaldas)                                                                        | [Sara Hernández](https://github.com/LonelyPrincess)                                                                       | [Terahn Harrison](https://github.com/terahn)                                                                      | [Antonin Klopp-Tosser](https://github.com/antoninklopp)                                                            |
-| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| ![danielcaldas](https://avatars2.githubusercontent.com/u/11733994?s=120&u=e6b6edacde9c76844785e21d0568a4ba7c7f9aa4&v=4) | ![LonelyPrincess](https://avatars3.githubusercontent.com/u/17673317?s=120&u=d3170de2d3d4adf6268b892213927c8439d2f513&v=4) | ![terahn](https://avatars2.githubusercontent.com/u/23760949?s=120&u=9182d8d602285c507a1e88a0629785323b2f8703&v=4) | ![antonin](https://avatars2.githubusercontent.com/u/26838971?s=120&u=e3767df46ed6d7ef40d95562450d96a6bac5c437&v=4) |
-| [@\_danielcaldas](https://twitter.com/_danielcaldas)                                                                    |                                                                                                                           |                                                                                                                   |                                                                                                                    |
-
-## Contributions
-
-Contributions are welcome, feel free to submit new ideas/features, just go ahead and open an issue. If you are more a _hands on_ person, just submit a pull request. Before jumping into coding, please take a look at the contribution guidelines [CONTRIBUTING.md](https://github.com/danielcaldas/react-d3-graph/blob/master/CONTRIBUTING.md).
-
-To run react-d3-graph in development mode you just need to run `npm run dev` and the interactive sandbox will reload with the changes to the library code, that way you can test your changes not only through unit test but also through a real life example. It's that simple. The development workflow usually should follow the steps:
-
-- Create a branch prefixed with `fix/` for bug fixes, `feature/` for new features, `chore/` or `refactor/` for refactoring or tooling and CI/CD related tasks.
-- Make sure you are up to date running `npm install`.
-- Run `npm run dev`.
-- Make you changes inside the folder `src` and the interactive sandbox consumes your changes in real time
-  with webpack-dev-server.
-- You can run tests locally with `npm run test` (for unit tests) or `npm run functional:local` for e2e tests.
-- After you're done, open the Pull Request and describe the changes you've made.
-
-## Alternatives (Not what you where looking for?)
-
-Well if you scrolled this far maybe _react-d3-graph_ does not fulfill all your requirements 😭, but don't worry I got you covered! There are a lot of different and good alternatives out there, [here is a list with a few alternatives](http://anvaka.github.io/graph-drawing-libraries/#!/all#%2Fall).
